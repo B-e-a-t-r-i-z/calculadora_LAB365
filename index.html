@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Desafio LAB365</title>
+        <link rel="Stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <main>
+
+            <h1>Calculadora</h1><br>
+
+            <label>Valor 1</label>
+            <input type="text" id="valor1" class="input_padrao" required><br><br>
+
+            <label>Valor 2</label>
+            <input type="text" id="valor2" class="input_padrao" required><br><br>
+            
+            <label id="operacao">Operação</label><br><br>
+
+            <select id="selecao">
+
+                <option>-Selecione-</option>
+                <option>Adição</option>
+                <option>Subtração</option>
+                <Option>Multiplicação</Option>
+                <option>Divisão</option>
+
+            </select><br><br>
+
+            <div>
+                <button type="submit" onclick="calcular()" class="botao_calcular">Calcular</button><br><br>
+
+            </div>
+
+            <label class="resultado">Resultado</label><br>
+            <textarea id="mensagem"></textarea>
+
+            <script src="script.js"></script>
+        </main>
+
+    </body>
+
+</html>
